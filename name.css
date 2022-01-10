@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh
+}
+h1{
+  color: #674325;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 7px;
+  cursor: pointer
+}
+h1 span{
+  transition: .5s linear
+}
+h1:hover span:nth-child(1){
+  margin-right: 5px
+}
+h1:hover span:nth-child(1):after{
+  content: " "
+}
+h1:hover span:nth-child(2){
+  margin-left: 30px
+}
+h1:hover span{
+  color: #f9aaf3;
+  text-shadow: 0 0 4px #160606, 0 0 16px #ffbcbc, 0 0 62px #3d3c41
+}
+@media screen and (max-width: 553px) {
+    h1{font-size: 30px} 
+}
+@media screen and (max-width: 350px) {
+    h1{font-size: 25px} 
+}
