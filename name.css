@@ -5,7 +5,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     min-height: 100vh
+}
+a{
+    text-decoration: none;
+    color: inherit;
 }
 h1{
   color: #674325;
