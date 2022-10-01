@@ -1,24 +1,36 @@
-let numOfSections = document.querySelectorAll('.section').length;
+let numOfSections = document.querySelectorAll(".section").length;
 
-document.getElementById('pseudo-window').style.height = (screen.height * numOfSections) + 'px'
+document.getElementById("pseudo-window").style.height =
+  screen.height * numOfSections + "px";
 
-action = new TimelineMax({paused:true})
-.staggerTo('.section', 4,{ 
-  x:'100%',
-  ease: Power4.easeOut
-  //ease: Back.easeOut.config(1.4) 
-}, 2)
-.staggerFrom('.section',0.2,{
-  autoAlpha:0, 
-  scale:0.5, transformOrigin:'center'
-},1,0)
+action = new TimelineMax({ paused: true })
+  .staggerTo(
+    ".section",
+    4,
+    {
+      x: "100%",
+      ease: Power4.easeOut,
+      //ease: Back.easeOut.config(1.4)
+    },
+    2
+  )
+  .staggerFrom(
+    ".section",
+    0.2,
+    {
+      autoAlpha: 0,
+      scale: 0.5,
+      transformOrigin: "center",
+    },
+    1,
+    0
+  );
 
-
-$(window).scroll( function(){
+$(window).scroll(function () {
   var scrollTop = $(window).scrollTop();
   var docHeight = $(document).height();
   var winHeight = $(window).height();
-  if( scrollTop >= 0){
-    action.progress( scrollTop / ( docHeight - winHeight ) );
+  if (scrollTop >= 0) {
+    action.progress(scrollTop / (docHeight - winHeight));
   }
 });
