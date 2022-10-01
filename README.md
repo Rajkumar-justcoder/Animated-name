@@ -4,8 +4,10 @@
 
 ##  Hacktoberfest
 ###  Add your own name with your name(contributor name )
-Like
-> i am yourname 
-> made by yourname with link to your github link in that part
+Like:
+
+i am yourname 
+
+made by yourname with link to your github link in that part
 
 Different section with Different contributor
