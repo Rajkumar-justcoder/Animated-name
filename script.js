@@ -6,7 +6,7 @@ height = height * numOfSections
 
 document.getElementById('pseudo-window').style.height = height + 'px'
 
-console.log(numOfSections,height);
+// console.log(numOfSections,height);
 
 
 action = new TimelineMax({paused:true})
