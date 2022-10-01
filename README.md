@@ -15,8 +15,8 @@ Different section with Different contributor
 
 
 ## How to contribute 
-step 1: Create issue
-step 1: Fork repo. make changes. make new branch,push code 
-step 1: Make pr!!
+- Step 1: Create issue
+- Step 2: Fork repo. make changes. make new branch,push code 
+- Step 3: Make pr!!
 
 Note: all Hacktoberfest rules should be followed 
