@@ -30,6 +30,23 @@ h3 {
   cursor: pointer
 }
 
+@media screen and (max-width: 553px) {
+  h3 {
+    font-size: 30px
+  }
+}
+
+@media screen and (max-width: 350px) {
+  h3 {
+    font-size: 25px
+  }
+}
+
+h3:hover span {
+  color: #f9aaf3;
+  text-shadow: 0 0 4px #160606, 0 0 16px #ffbcbc, 0 0 62px #3d3c41
+}
+
 h3:hover span:nth-child(1) {
   animation: animateRight 1s linear forwards;
 }
@@ -55,23 +72,6 @@ h3:hover span:nth-child(2) {
 
   to {
     margin-right: 30px;
-  }
-}
-
-h1:hover span {
-  color: #f9aaf3;
-  text-shadow: 0 0 4px #160606, 0 0 16px #ffbcbc, 0 0 62px #3d3c41
-}
-
-@media screen and (max-width: 553px) {
-  h1 {
-    font-size: 30px
-  }
-}
-
-@media screen and (max-width: 350px) {
-  h1 {
-    font-size: 25px
   }
 }
 

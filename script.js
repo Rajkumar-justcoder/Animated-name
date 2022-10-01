@@ -1,13 +1,6 @@
-let height = screen.height;
-
 let numOfSections = document.querySelectorAll('.section').length;
 
-height = height * numOfSections
-
-document.getElementById('pseudo-window').style.height = height + 'px'
-
-console.log(numOfSections,height);
-
+document.getElementById('pseudo-window').style.height = (screen.height * numOfSections) + 'px'
 
 action = new TimelineMax({paused:true})
 .staggerTo('.section', 4,{ 
