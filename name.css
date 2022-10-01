@@ -1,44 +1,97 @@
-body{
-    padding: 0;
-    margin: 0;
-    background-color: #000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    min-height: 100vh
+* {
+  box-sizing: border-box
 }
-a{
-    text-decoration: none;
-    color: inherit;
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #000;
 }
-h1{
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
   color: #674325;
   font-size: 50px;
   font-weight: bold;
   font-family: monospace;
   letter-spacing: 7px;
+}
+
+h3 {
+  color: #674325;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: monospace;
+  letter-spacing: 2px;
   cursor: pointer
 }
-h1 span{
-  transition: .5s linear
+
+h3:hover span:nth-child(1) {
+  animation: animateRight 1s linear forwards;
 }
-h1:hover span:nth-child(1){
-  margin-right: 5px
+
+h3:hover span:nth-child(2) {
+  animation: animateLeft 1s linear forwards;
 }
-h1:hover span:nth-child(1):after{
-  content: " "
+
+@keyframes animateLeft {
+  from {
+    margin-left: 0;
+  }
+
+  to {
+    margin-left: 30px;
+  }
 }
-h1:hover span:nth-child(2){
-  margin-left: 30px
+
+@keyframes animateRight {
+  from {
+    margin-right: 0;
+  }
+
+  to {
+    margin-right: 30px;
+  }
 }
-h1:hover span{
+
+h1:hover span {
   color: #f9aaf3;
   text-shadow: 0 0 4px #160606, 0 0 16px #ffbcbc, 0 0 62px #3d3c41
 }
+
 @media screen and (max-width: 553px) {
-    h1{font-size: 30px} 
+  h1 {
+    font-size: 30px
+  }
 }
+
 @media screen and (max-width: 350px) {
-    h1{font-size: 25px} 
+  h1 {
+    font-size: 25px
+  }
+}
+
+#pseudo-window{
+  width: 100%;
+  background: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  position: fixed;
+  top: 0;
+  left:-100%;
+  width: 100%;
+  height: 100vh;
+  background: #000;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
