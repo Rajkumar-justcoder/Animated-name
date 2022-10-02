@@ -1,17 +1,16 @@
 import names from './names.js';
 
-const pseudoWindow = document.querySelector('#pseudo-window')
+const body = document.querySelector('#container')
 // console.log(names)
 
 // * inject html inside the main container
-names.forEach(item => {
+names.forEach((item, i) => {
   const section = document.createElement('section')
+  const sectionId = `s${i}`
+  const nextSectionId = `s${i+1}`
   const mainContent = `
-      <section class="section">
-        <div class="main-cont">
+      <section class="section" id="${sectionId}">
           <h3><span>I </span>AM <span>${item.name}</span></h3>
-        </div>
-        <div class="main-cont" style="text-align: center">
           <h3>
             Made with <span>
               <lord-icon src="https://cdn.lordicon.com/pnhskdva.json" delay="200" trigger="loop" colors="primary:#674325"
@@ -24,34 +23,13 @@ names.forEach(item => {
               </a>
             </span>
           </h3>
-        </div>
+          <a href="#${nextSectionId}">
+          <lord-icon src="https://cdn.lordicon.com/rxufjlal.json" trigger="loop" colors="primary:#674325" state="hover-1"
+          class="icon--animation icon-next-section">
+        </lord-icon>
+        </a>
       </section>
   `
   section.innerHTML = mainContent;
-  pseudoWindow.appendChild(section); 
+  body.appendChild(section); 
 })
-
-let numOfSections = document.querySelectorAll('.section').length;
-
-document.getElementById('pseudo-window').style.height = (screen.height * numOfSections) + 'px'
-
-let action = new TimelineMax({paused:true})
-.staggerTo('.section', 4,{ 
-  x:'100%',
-  ease: Power4.easeOut
-  //ease: Back.easeOut.config(1.4) 
-}, 2)
-.staggerFrom('.section',0.2,{
-  autoAlpha:0, 
-  scale:0.5, transformOrigin:'center'
-},1,0)
-
-
-$(window).scroll( function(){
-  var scrollTop = $(window).scrollTop();
-  var docHeight = $(document).height();
-  var winHeight = $(window).height();
-  if( scrollTop >= 0){
-    action.progress( scrollTop / ( docHeight - winHeight ) );
-  }
-});
