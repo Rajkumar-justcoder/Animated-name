@@ -58,17 +58,33 @@ h3 {
   }
 }
 
+h3 span {
+  transition: 0.3s; 
+}
+
 h3:hover span {
   color: #f9aaf3;
   text-shadow: 0 0 4px #160606, 0 0 16px #ffbcbc, 0 0 62px #3d3c41;
 }
 
+h3 span:nth-child(1) {
+  margin-right: 0;
+  transition: 1s;
+}
+
+h3 span:nth-child(2) {
+  margin-left: 0;
+  transition: 1s;
+}
+
 h3:hover span:nth-child(1) {
-  animation: animateRight 1s linear forwards;
+  margin-right: 30px;
+  transition: 1s;
 }
 
 h3:hover span:nth-child(2) {
-  animation: animateLeft 1s linear forwards;
+  margin-left: 30px;
+  transition: 1s;
 }
 
 @keyframes animateLeft {
