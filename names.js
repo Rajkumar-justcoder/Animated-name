@@ -44,6 +44,11 @@ const names = [{
   name: "Nitesh",
   fullName: "Nitesh Thapliyal",
   githubUrl: "https://github.com/Nitesh-thapliyal",
+{
+  name: "Piyush",
+  fullName: "Piyush Chandel",
+  githubUrl: "https://github.com/Piyush-Chandel7",
+}
 }]
 
 export default names;
