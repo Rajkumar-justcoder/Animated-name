@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --text-color: #674325;
+}
+
 body {
   padding: 0;
   margin: 10rem 0;
@@ -23,7 +27,7 @@ h1 {
 }
 
 h3 {
-  color: #674325;
+  color: var(--text-color);
   font-size: 60px;
   font-weight: bold;
   font-family: monospace;
@@ -59,7 +63,7 @@ h3 {
 }
 
 h3 span {
-  transition: 0.3s; 
+  transition: 0.3s;
 }
 
 h3:hover span {
@@ -126,4 +130,66 @@ h3:hover span:nth-child(2) {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+/* color classes */
+
+.color-1 {
+  --text-color: #f26d21;
+}
+
+.color-2 {
+  --text-color: #c02f1d;
+}
+
+.color-3 {
+  --text-color: #ebc944;
+}
+
+.color-4 {
+  --text-color: #93a661;
+}
+
+.color-5 {
+  --text-color: #1287a8;
+}
+
+.color-6 {
+  --text-color: #8e44ad;
+}
+
+.color-7 {
+  --text-color: #fa8072;
+}
+
+.color-8 {
+  --text-color: #ccccff;
+}
+
+.color-9 {
+  --text-color: #008080;
+}
+
+.color-10 {
+  --text-color: #ffc16f;
+}
+
+.color-11 {
+  --text-color: #fff69e;
+}
+
+.color-12 {
+  --text-color: #cc5959;
+}
+
+.color-13 {
+  --text-color: #d0a3ff;
+}
+
+.color-14 {
+  --text-color: #ccc47e;
+}
+
+.color-15 {
+  --text-color: #93c47d;
 }
