@@ -1,4 +1,5 @@
-const names = [{
+const names = [
+  {
   name: "Rajkumar",
   fullName: "Rajkumar",
   githubUrl: "https://github.com/Rajkumar-justcoder",
@@ -30,7 +31,11 @@ const names = [{
   name: "Swaroop",
   fullName: "Swaroop Rajwal",
   githubUrl: "https://github.com/swaroopRajwal",
-}, {
+},{
+    name: "Gambhir",
+    fullName: "Gambhir Sharma",
+    githubUrl: "https://github.com/Gambhirsharma",
+  },{
 
   name: "Angel",
   fullName: "Angel Bansal",
