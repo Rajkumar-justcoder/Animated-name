@@ -78,6 +78,6 @@ const names = [
 {
   name: "Dia",
   fullName:"DiaBolical0212",
-githubUrl:"https://github.com/DiaBolical0212/"}]
+  githubUrl:"https://github.com/DiaBolical0212/"]
 
 export default names;
