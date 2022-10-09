@@ -79,6 +79,11 @@ const names = [
   name: "Stuti",
   fullName:"Stuti Upreti",
   githubUrl:"https://github.com/thestuti"
+},
+{
+  name: "Gaurav",
+  fullName:"Gaurav Chatribin",
+  githubUrl:"https://github.com/gaurav-chatribin"
 }
 ]
 
