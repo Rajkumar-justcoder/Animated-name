@@ -99,6 +99,11 @@ githubUrl:"https://github.com/DiaBolical0212/"
   fullName:"Gaurav Chatribin",
   githubUrl:"https://github.com/gaurav-chatribin"
 },
+  {
+  name: "Sabin",
+  fullName:"Sabin Thapa",
+  githubUrl:"https://github.com/sabin-thapa"
+},
 {
     name: 'Francis',
     fullName: 'Francis Okonkwo',
