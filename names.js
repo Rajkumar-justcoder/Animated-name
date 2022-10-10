@@ -108,6 +108,11 @@ githubUrl:"https://github.com/DiaBolical0212/"
     name: 'Francis',
     fullName: 'Francis Okonkwo',
     githubUrl: 'https://github.com/Bluebberries'
+},
+{
+  name: 'Rahul',
+  fullName: 'Rahul Raj Sarma',
+  githubUrl: 'https://github.com/ragingrahul'
 }
 
 ]
