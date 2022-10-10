@@ -4,6 +4,11 @@ const names = [
   fullName: "Rajkumar",
   githubUrl: "https://github.com/Rajkumar-justcoder",
 }, 
+   {
+  name: "Prakhar ",
+  fullName: "Prakhar Saxena",
+  githubUrl: "https://github.com/prakharsxn7",
+}, 
 {
   name: "AnshSinghSonkhia",
   fullName: "Ansh Singh Sonkhia",
