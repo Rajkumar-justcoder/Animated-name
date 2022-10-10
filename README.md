@@ -47,13 +47,13 @@ git add <path to the file you worked on>
 **3**. Commit your changes with
 
 ```bash
-git cz
+git commit -m '<your-commit-message'
 ```
 
 **4**. Push your changes
 
 ```bash
-git push
+git push -u <remote-name> <branch-name>
 ```
 
 ## 👩🏽‍💻 Contributing
