@@ -113,7 +113,7 @@ githubUrl:"https://github.com/DiaBolical0212/"
   name: 'Rahul',
   fullName: 'Rahul Raj Sarma',
   githubUrl: 'https://github.com/ragingrahul'
-},
+}
 
 ]
 
