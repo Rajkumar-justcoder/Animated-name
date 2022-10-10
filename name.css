@@ -193,3 +193,18 @@ h3:hover span:nth-child(2) {
 .color-15 {
   --text-color: #93c47d;
 }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 18px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #a58631;
+    border-radius: 131px;
+    border: 4px solid #3b0c0c;
+  }
