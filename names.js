@@ -75,10 +75,21 @@ const names = [
   fullName:"Shivanshi Saxena",
   githubUrl:"https://github.com/shivanshi-s"
 },
-
 {
   name: "Dia",
   fullName:"DiaBolical0212",
-githubUrl:"https://github.com/DiaBolical0212/"}]
+githubUrl:"https://github.com/DiaBolical0212/"
+},
+{
+  name: "Stuti",
+  fullName:"Stuti Upreti",
+  githubUrl:"https://github.com/thestuti"
+},
+{
+  name: "Gaurav",
+  fullName:"Gaurav Chatribin",
+  githubUrl:"https://github.com/gaurav-chatribin"
+}
+]
 
 export default names;
