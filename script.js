@@ -29,7 +29,6 @@ names.forEach((item) => {
 
   let lordiconColor = iconColors[color - 1]; // variable for storing icon color
 
-  const section = document.createElement("section");
   const mainContent = `
       <section class="section">
         <div class="main-cont">
@@ -51,15 +50,13 @@ names.forEach((item) => {
         </div>
       </section>
   `;
-  section.innerHTML = mainContent;
-  pseudoWindow.appendChild(section);
+  pseudoWindow.innerHTML +=  mainContent;
 });
 
-let numOfSections = document.querySelectorAll(".section").length;
+ let numOfSections = document.querySelectorAll(".section").length;
 
-document.getElementById("pseudo-window").style.height =
-  screen.height * numOfSections + "px";
-
+document.getElementById("pseudo-window").style.height = document.querySelector(".section").offsetHeight * numOfSections + "px";
+/*
 let action = new TimelineMax({ paused: true })
   .staggerTo(
     ".section",
@@ -91,3 +88,4 @@ $(window).scroll(function () {
     action.progress(scrollTop / (docHeight - winHeight));
   }
 });
+ */
