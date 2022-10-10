@@ -3,39 +3,48 @@ const names = [
   name: "Rajkumar",
   fullName: "Rajkumar",
   githubUrl: "https://github.com/Rajkumar-justcoder",
-}, {
+}, 
+{
   name: "AnshSinghSonkhia",
   fullName: "Ansh Singh Sonkhia",
   githubUrl: "https://github.com/AnshSinghSonkhia",
-}, {
+}, 
+{
   name: "rhvsingh",
   fullName: "Raja Harsh Vardhan Singh",
   githubUrl: "https://github.com/rhvsingh",
-}, {
+},
+{
   name: "MilindPalaria",
   fullName: "Milind-Palaria",
   githubUrl: "https://github.com/Milind-Palaria",
-}, {
+}, 
+{
   name: "Ritik",
   fullName: "Ritik Jha",
   githubUrl: "https://github.com/ritikjha5700",
-}, {
+}, 
+{
   name: "Ayobami",
   fullName: "Ayobami Seun",
   githubUrl: "https://github.com/ayobamiseun",
-}, {
+}, 
+{
   name: "Devraj",
   fullName: "Devraj Chatribin",
   githubUrl: "https://github.com/DevrajDC",
-}, {
+}, 
+{
   name: "Swaroop",
   fullName: "Swaroop Rajwal",
   githubUrl: "https://github.com/swaroopRajwal",
-},{
+},
+{
     name: "Gambhir",
     fullName: "Gambhir Sharma",
     githubUrl: "https://github.com/Gambhirsharma",
-  },{
+  },
+  {
 
   name: "Angel",
   fullName: "Angel Bansal",
@@ -76,6 +85,11 @@ const names = [
   githubUrl:"https://github.com/shivanshi-s"
 },
 {
+  name: "Dia",
+  fullName:"DiaBolical0212",
+githubUrl:"https://github.com/DiaBolical0212/"
+},
+{
   name: "Stuti",
   fullName:"Stuti Upreti",
   githubUrl:"https://github.com/thestuti"
@@ -90,7 +104,12 @@ const names = [
   fullName:"Sabin Thapa",
   githubUrl:"https://github.com/sabin-thapa"
 },
+{
+    name: 'Francis',
+    fullName: 'Francis Okonkwo',
+    githubUrl: 'https://github.com/Bluebberries'
+}
 
 ]
 
-export default names;
+export default names
