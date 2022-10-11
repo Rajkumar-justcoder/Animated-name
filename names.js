@@ -123,6 +123,11 @@ githubUrl:"https://github.com/DiaBolical0212/"
   name: "Rishabh Pratap Singh",
   fullName: "Rishabh",
   githubUrl: "https://github.com/iam-Rps",
+},
+{
+  name: "pranath",
+  fullName: "Pranath Naik",
+  githubUrl: "https://github.com/pranathnaik",
 }
 
 ]
