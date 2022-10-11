@@ -1,0 +1,80 @@
+html {
+  background: url("https://t3.ftcdn.net/jpg/04/02/66/14/240_F_402661479_Nysm7ihwkfDlIChiCX8mgOKhyi6eiWOw.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+body {
+  background-color: lightgreen;
+  margin: 0;
+  font-family: "Montserrat", "Avenir";
+}
+
+h1 {
+  text-align: center;
+  color: brown;
+  font-family: 'Comfortaa', cursive;
+  font-size: 3em;
+  font-weight: 700;
+  padding: 20px 0;
+  margin: 0;
+  line-height: .66;
+  background-color: lightgreen;
+}
+
+#instructions {
+  font-size: .33em;
+  text-align: center;
+}
+
+#topNav {
+  background-color: lightgreen;
+  text-align: center;
+  height: 30px;
+  color: black;
+
+}
+
+.circle {
+  width: 15%;
+  background: lightgreen;
+  padding-bottom: 15%;
+  float: left;
+  margin: 2.5%;
+  border-radius: 50%;
+  transition: background 0.5s;
+  -webkit-transition: background 0.5s;
+  -moz-transition: background 0.5s;
+}
+
+#container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  color: black;
+  letter-spacing: 1px;
+  font-size: inherit;
+  outline: none;
+}
+
+button:hover {
+  color: white;
+  background: steelblue;
+}
+
+.selected {
+  background: steelblue;
+  color: white;
+}
+
+#info {
+  display: inline-block;
+  width: 20%;
+  font-weight: 700;
+}
