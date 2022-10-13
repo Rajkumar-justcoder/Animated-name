@@ -103,6 +103,11 @@ githubUrl:"https://github.com/DiaBolical0212/"
     name: 'Francis',
     fullName: 'Francis Okonkwo',
     githubUrl: 'https://github.com/Bluebberries'
+},
+{
+    name: 'Ganesh Karthik',
+    fullName: 'Ganesh Karthik Ramarathinam',
+    githubUrl: 'https://github.com/Ganeshkarthik1031'
 }
 
 ]
