@@ -133,6 +133,11 @@ githubUrl:"https://github.com/DiaBolical0212/"
   name: "pranath",
   fullName: "Pranath Naik",
   githubUrl: "https://github.com/pranathnaik",
+},
+{
+  name: "ManishSharma",
+  fullName: "Manish Sharma",
+  githubUrl: "https://github.com/Manish-XD"
 }
 
 ]
