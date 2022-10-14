@@ -99,6 +99,11 @@ githubUrl:"https://github.com/DiaBolical0212/"
   fullName:"Gaurav Chatribin",
   githubUrl:"https://github.com/gaurav-chatribin"
 },
+  {
+  name: "Sabin",
+  fullName:"Sabin Thapa",
+  githubUrl:"https://github.com/sabin-thapa"
+},
 {
     name: 'Francis',
     fullName: 'Francis Okonkwo',
@@ -108,6 +113,26 @@ githubUrl:"https://github.com/DiaBolical0212/"
     name: 'Ganesh Karthik',
     fullName: 'Ganesh Karthik Ramarathinam',
     githubUrl: 'https://github.com/Ganeshkarthik1031'
+},
+  {
+  name: "shiv",
+  fullName: "Shivam Singh",
+  githubUrl: "https://github.com/shiv-03",
+},
+{
+  name: 'Rahul',
+  fullName: 'Rahul Raj Sarma',
+  githubUrl: 'https://github.com/ragingrahul'
+},
+  {
+  name: "Rishabh Pratap Singh",
+  fullName: "Rishabh",
+  githubUrl: "https://github.com/iam-Rps",
+},
+{
+  name: "pranath",
+  fullName: "Pranath Naik",
+  githubUrl: "https://github.com/pranathnaik",
 }
 
 ]
