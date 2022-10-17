@@ -129,6 +129,11 @@ githubUrl:"https://github.com/DiaBolical0212/"
   fullName: "Rishabh",
   githubUrl: "https://github.com/iam-Rps",
 },
+  {
+  name: "Umang",
+  fullName: "Umang Savaliya",
+  githubUrl: "https://github.com/Umang3072",
+},
 {
   name: "pranath",
   fullName: "Pranath Naik",
