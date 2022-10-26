@@ -144,6 +144,11 @@ const names = [
         fullName: 'Rio Cantre',
         githubUrl: 'https://github.com/RioCantre',
     },
+    {
+        name: 'Stuti',
+        fullName: 'Stuti Mongia',
+        githubUrl: 'https://github.com/stutimongia2024',
+    },
 ];
 
 export default names;
