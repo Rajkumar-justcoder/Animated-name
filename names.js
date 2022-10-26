@@ -15,6 +15,11 @@ const names = [
         githubUrl: 'https://github.com/rhvsingh',
     },
     {
+        name: 'Himanshu',
+        fullName: 'Himanshu saini',
+        githubUrl: 'https://github.com/Himanshusaini12',
+    },
+    {
         name: 'MilindPalaria',
         fullName: 'Milind-Palaria',
         githubUrl: 'https://github.com/Milind-Palaria',
