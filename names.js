@@ -149,6 +149,11 @@ const names = [
         fullName: 'Stuti Mongia',
         githubUrl: 'https://github.com/stutimongia2024',
     },
+    {
+        name: 'Monil',
+        fullName: 'Monil Gandhi',
+        githubUrl: 'https://github.com/Monil-007',
+    },
 ];
 
 export default names;
